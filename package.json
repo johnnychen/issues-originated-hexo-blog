@@ -1,0 +1,31 @@
+{
+  "name": "issues-originated-hexo-blog",
+  "version": "0.0.1",
+  "description": "issues-originated-hexo-blog",
+  "main": "index.js",
+  "bin": {
+    "issues-originated-hexo-blog": "./bin/issues-originated-hexo-blog"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnychen/issues-originated-hexo-blog.git"
+  },
+  "keywords": [
+    "hexo",
+    "github-issues",
+    "blog",
+    "issues-originated-hexo-blog"
+  ],
+  "author": "johnnychen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnnychen/issues-originated-hexo-blog/issues"
+  },
+  "homepage": "https://github.com/johnnychen/issues-originated-hexo-blog#readme",
+  "dependencies": {
+    "axios": "^0.17.1"
+  }
+}

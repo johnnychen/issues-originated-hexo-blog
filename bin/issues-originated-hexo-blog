@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+const argv = process.argv;
+const blogUrl = argv[2];
+const run = require('../index.js');
+
+const assert = require('assert');
+
+assert(blogUrl, '请输入github blog地址');
+
+run(blogUrl);
