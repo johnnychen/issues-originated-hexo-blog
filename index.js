@@ -2,6 +2,7 @@
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
+const cwd = process.cwd();
 
 
 async function run(blogUrl) {
@@ -56,7 +57,7 @@ async function run(blogUrl) {
 
         post = metas.join('\n') + '\n\n' + blog.body;
 
-        fs.writeFileSync(path.join(__dirname, `./source/_posts/${blogName}.md`), post);
+        fs.writeFileSync(path.join(cwd, `./source/_posts/${blogName}.md`), post);
 
     });
 }
