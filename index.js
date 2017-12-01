@@ -41,6 +41,7 @@ async function run(blogUrl) {
         metas.push(`title: ${blog.title}`)
         // console.log(blog);
         metas.push('date: ' + blog.created_at);
+        metas.push('updated: ' + blog.updated_at);
         updateTime[blog.number] = blog.updated_at;
 
 

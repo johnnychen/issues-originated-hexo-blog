@@ -1,6 +1,6 @@
 {
   "name": "issues-originated-hexo-blog",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "issues-originated-hexo-blog",
   "main": "index.js",
   "bin": {
